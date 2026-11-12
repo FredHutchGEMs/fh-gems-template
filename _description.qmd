@@ -4,4 +4,4 @@ Describe the module.
 
 # **Description**
 
-[Student Activity](https://genomicseducation.org){.nav-button}  [Instructor Materials](instructor_materials.qmd){.nav-button}  [Adapt this Activity!](https://genomicseducation.org){.nav-button}
+[Student Activity](https://genomicseducation.org){.nav-button}  [Instructor Materials](instructor_materials.qmd){.nav-button}  [Adapt this Activity!](adapt_materials.qmd){.nav-button}
