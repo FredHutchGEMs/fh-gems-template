@@ -1,14 +1,36 @@
-# Quarto Based OTTR Course {.unnumbered}
+---
+title: "**Website Name**"
+output:
+  html_document
+---
 
-This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at [www.itcrtraining.org](www.itcrtraining.org) for more information.
+<div class = "banner_color">
+Banner text!  
+</div>
+
+### **About**
+
+This website was created with the [OTTR_Quarto website template](https://github.com/ottrproject/OTTR_Quarto). 
+
+This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See [ottrproject.org](https://www.ottrproject.org/) for more docs and details. 
+
+Here is how you can include images in your website pages (this one is saved in `resources/images` to keep things tidy:
+
+```{r, fig.align='center', fig.alt= "Example image", echo = FALSE, out.width="30%"}
+knitr::include_graphics("resources/images/example_image.png")
+```
+
+ 
+ 
+We will go through the following:
+
+1. How to set up your repository to enable the GitHub actions of the template. (Setup tab)
+2. How to host your website using GitHub (Hosting tab)
+3. How to modify your website structure (Structure tab)
+4. How to change your website style (Style tab)
+5. More information about GitHub Actions (Git Actions tab)
+
+Click on each tab to learn more.
 
 
-## Available Course Formats
-
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
-
-- The material for this course can be viewed without login requirement on this [website](https://www.ottrproject.org/). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](https://leanpub.com/).
-- This course can be taken on [Coursera for certification here](https://www.coursera.org/) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/ottrproject/OTTR_Quarto).
 
