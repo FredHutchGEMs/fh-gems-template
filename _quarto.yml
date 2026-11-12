@@ -3,14 +3,17 @@ project:
   output-dir: docs
   
 website:
-  title: "GEMs "
+  title: "{MODULE NAME}"
   navbar:
     left:
-    - text: ""
-      href: setup.qmd
+    - text: Student Activity
+      href: index.qmd
+    - text: All Modules
+      href: https://genomicseducation.org/modules.html
 
 format:
   html:
-    css: styles.css
+    css: assets/styles.css
     include-in-header:
       - file: assets/header.html
+    toc: true
