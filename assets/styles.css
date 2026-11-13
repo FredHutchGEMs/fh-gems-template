@@ -1,7 +1,7 @@
 
 /* To add some space below the navigation bar */
 
- body {
+body {
   margin-top: 100px;
 }
 
@@ -56,6 +56,22 @@
   background: var(--color-mint3);
 }
 
+/* links */
+/* Active & hovered TOC links */
+.sidebar nav[role="doc-toc"] ul > li > a.active,
+.sidebar nav[role="doc-toc"] ul > li > a:hover {
+  color: var(--color-blue4) !important;
+  border-left-color: var(--color-blue4) !important;
+}
+/* Regular links */
+a {
+  color: var(--color-blue4);
+}
+
+/* Navbar background */
+.navbar {
+  background-color: var(--color-blue4) !important;
+}
 
 body {
   background-image: url('https://raw.githubusercontent.com/datascicollab/datascicollab.github.io/b539d96ef04b3646684a2c85b01763a84660c8df/resources/images/small_hc_gradient.png');
