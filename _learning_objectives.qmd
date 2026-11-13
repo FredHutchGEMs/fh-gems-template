@@ -1,3 +1,4 @@
+<!-- Make sure to mention from where the learning objectives were derived. Check out the GSA learning framework, both at https://genetics-gsa.org/education/genetics-learning-framework/ and in the resources folder in this repository. -->
 
 # **Learning Objectives**
 
