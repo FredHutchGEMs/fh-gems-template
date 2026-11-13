@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Website Name – OTTR Template Website</title>
+<title>Instructor Guide: {MODULE NAME} – {MODULE NAME}</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-883ad16e2c5c5fde9b8f7ae0c5ecc4a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-26cd9a6a83776a8819306ac440900e07.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,10 +68,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+ <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=???"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 
 
-<link rel="stylesheet" href="assets/style_config_default.css">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">OTTR Template Website</span>
+    <span class="navbar-title">{MODULE NAME}</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,33 +100,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-fa-home" role="img">
-</i> 
-<span class="menu-text"><strong>Website Name</strong></span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Student Activity</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./setup.html"> 
-<span class="menu-text">1. Setup</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./hosting.html"> 
-<span class="menu-text">2. Hosting</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./editing.html"> 
-<span class="menu-text">Editing</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./style.html"> 
-<span class="menu-text">3. Style</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./git_actions.html"> 
-<span class="menu-text">4. Git Actions</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.ottrproject.org/"> 
-<span class="menu-text">More ottr docs</span></a>
+    <a class="nav-link" href="https://genomicseducation.org/modules.html"> 
+<span class="menu-text">All Modules</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -136,7 +123,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><strong>About</strong></a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description"><strong>Description</strong></a></li>
+  <li><a href="#timing-modality-prerequisites" id="toc-timing-modality-prerequisites" class="nav-link" data-scroll-target="#timing-modality-prerequisites"><strong>Timing, Modality, Prerequisites</strong></a></li>
+  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials"><strong>Required Materials</strong></a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives"><strong>Learning Objectives</strong></a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><strong>Evaluation</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -145,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><strong>Website Name</strong></h1>
+<h1 class="title"><strong>Instructor Guide: {MODULE NAME}</strong></h1>
 </div>
 
 
@@ -162,32 +153,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="banner_color">
-<p>Banner text!</p>
-</div>
-<section id="about" class="level3">
-<h3 class="anchored" data-anchor-id="about"><strong>About</strong></h3>
-<p>This website was created with the <a href="https://github.com/ottrproject/OTTR_Quarto">OTTR_Quarto website template</a>.</p>
-<p>This enables simpler creation of websites that have automated checks for broken URLs and spelling errors, as well as automated rendering of all html files. No need to worry about git conflicts for html files! See <a href="https://www.ottrproject.org/">ottrproject.org</a> for more docs and details.</p>
-<p>Here is how you can include images in your website pages (this one is saved in <code>resources/images</code> to keep things tidy:</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="resources/images/example_image.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%" alt="Example image"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>We will go through the following:</p>
+<!--
+Describe the module.
+-->
+<section id="description" class="level1">
+<h1><strong>Description</strong></h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus turpis ac tellus iaculis laoreet. Fusce nec augue lobortis, luctus felis a, viverra odio. Proin sollicitudin sodales urna, a elementum velit cursus at. Nunc dapibus, lacus sed fringilla laoreet, dolor nibh facilisis eros, eu placerat sapien dui at enim.</p>
+<p><a href="https://genomicseducation.org" class="nav-button">Student Activity</a> <a href="./instructor_materials.html" class="nav-button">Instructor Materials</a> <a href="./adapt_materials.html" class="nav-button">Adapt this Activity!</a></p>
+<!--
+Describe how long you expect the activity to take. Any details about modality are also helpful.
+-->
+</section>
+<section id="timing-modality-prerequisites" class="level1">
+<h1><strong>Timing, Modality, Prerequisites</strong></h1>
+<p><strong>Timing:</strong> Pellentesque eleifend ac dui id vestibulum. Proin scelerisque semper nulla, eget ornare nulla interdum eget.</p>
+<p><strong>Modality:</strong> Ut lobortis porta ullamcorper.</p>
+<p><strong>Prerequisites:</strong> Nulla dui ex, scelerisque et sem eu, maximus viverra neque.</p>
+</section>
+<section id="required-materials" class="level1">
+<h1><strong>Required Materials</strong></h1>
+<p>Vestibulum mollis tempus commodo. Sed maximus mauris ipsum, a convallis velit rutrum a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus malesuada turpis ac augue tempor, id vulputate justo interdum.</p>
+<!-- Make sure to mention from where the learning objectives were derived. Check out the GSA learning framework, both at https://genetics-gsa.org/education/genetics-learning-framework/ and in the resources folder in this repository. -->
+</section>
+<section id="learning-objectives" class="level1">
+<h1><strong>Learning Objectives</strong></h1>
 <ol type="1">
-<li>How to set up your repository to enable the GitHub actions of the template. (Setup tab)</li>
-<li>How to host your website using GitHub (Hosting tab)</li>
-<li>How to modify your website structure (Structure tab)</li>
-<li>How to change your website style (Style tab)</li>
-<li>More information about GitHub Actions (Git Actions tab)</li>
+<li><p>Praesent eleifend rhoncus nulla.</p></li>
+<li><p>Duis aliquam, urna eu scelerisque tincidunt.</p></li>
+<li><p>Nisi turpis tincidunt nunc, quis volutpat elit urna a massa.</p></li>
+<li><p>Phasellus facilisis erat non risus ullamcorper.</p></li>
 </ol>
-<p>Click on each tab to learn more.</p>
+<!--
+Describe the module.
+-->
+</section>
+<section id="evaluation" class="level1">
+<h1><strong>Evaluation</strong></h1>
 
 
 </section>
