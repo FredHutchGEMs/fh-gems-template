@@ -32,17 +32,11 @@ jobs:
           # Cleanup
           mv .github/course_README_template.md README.md
           rm -rf \
-            .github/workflows/report-maker.yml \
             .github/workflows/send-updates.yml \
             .github/workflows/test-send-updates.yml \
-            .github/sync.yml \
-            .github/test-sync.yml \
             .github/workflows/starting-course.yml \
-            .github/ISSUE_TEMPLATE/course-template-problem-report.md \
-            .github/ISSUE_TEMPLATE/course-template-feature-request.md \
-            .github/ISSUE_TEMPLATE/new-course-add-to-sync.md \
-            .github/ISSUE_TEMPLATE/update-course-info-for-sync.md \
-            .github/PULL_REQUEST_TEMPLATE/add_to_sync_template.md \
+            .github/sync.yml \
+            .github/switch_sync_repo.R \
             docs/*.html \
             docs/*.md \
             manuscript/*

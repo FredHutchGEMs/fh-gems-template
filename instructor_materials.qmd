@@ -4,19 +4,25 @@ title: "**Instructor Guide: {MODULE NAME}**"
 
 # **Materials**
 
-[Student Activity: Google Doc](https://genomicseducation.org){.content-button} 
+[Student Activity: Google Doc]({add link}){.content-button} 
 
-[Student Activity: Word Doc](https://genomicseducation.org){.content-button} 
+[Student Activity: Word Doc]({add link}){.content-button} 
 
-[Student Activity: Web Version](https://genomicseducation.org){.content-button}
+[Student Activity: Web Version]({add link}){.content-button}
 
 # **Supplemental Materials**
 
-# **Answer Key**
+<!-- This section might include additional resources such as pre-readings or podcasts to supplement learning. -->
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus turpis ac tellus iaculis laoreet. Fusce nec augue lobortis, luctus felis a, viverra odio. Proin sollicitudin sodales urna, a elementum velit cursus at. 
+
+# **Questions and Answer Key**
+
+[Student Activity: Questions Only]({add link}){.content-button}
+
+[Student Activity: Answer Key]({add link}){.content-button}
 
 Please request access to the key below by emailing **gems at fredhutch.org**.
-
-[Student Activity: Answer Key](https://genomicseducation.org){.content-button}
 
 # **Instructor Tips**
 
@@ -24,4 +30,4 @@ We'll add comments from our pilot instructors here as we receive them.
 
 # **Have you used this activity? Tell us how it went!**
 
-[Take the Survey](https://genomicseducation.org){.nav-button}
+[Take the Survey]({add link}){.nav-button}
