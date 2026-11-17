@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-26cd9a6a83776a8819306ac440900e07.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-23dc5dca1f9abece43ce713b7503adbf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +68,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=XXX"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'XXX', { 'anonymize_ip': true});
+</script>
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
  <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
 
@@ -125,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#materials" id="toc-materials" class="nav-link active" data-scroll-target="#materials"><strong>Materials</strong></a></li>
   <li><a href="#supplemental-materials" id="toc-supplemental-materials" class="nav-link" data-scroll-target="#supplemental-materials"><strong>Supplemental Materials</strong></a></li>
-  <li><a href="#answer-key" id="toc-answer-key" class="nav-link" data-scroll-target="#answer-key"><strong>Answer Key</strong></a></li>
+  <li><a href="#questions-and-answer-key" id="toc-questions-and-answer-key" class="nav-link" data-scroll-target="#questions-and-answer-key"><strong>Questions and Answer Key</strong></a></li>
   <li><a href="#instructor-tips" id="toc-instructor-tips" class="nav-link" data-scroll-target="#instructor-tips"><strong>Instructor Tips</strong></a></li>
   <li><a href="#have-you-used-this-activity-tell-us-how-it-went" id="toc-have-you-used-this-activity-tell-us-how-it-went" class="nav-link" data-scroll-target="#have-you-used-this-activity-tell-us-how-it-went"><strong>Have you used this activity? Tell us how it went!</strong></a></li>
   </ul>
@@ -155,17 +164,20 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="materials" class="level1">
 <h1><strong>Materials</strong></h1>
-<p><a href="https://genomicseducation.org" class="content-button">Student Activity: Google Doc</a></p>
-<p><a href="https://genomicseducation.org" class="content-button">Student Activity: Word Doc</a></p>
-<p><a href="https://genomicseducation.org" class="content-button">Student Activity: Web Version</a></p>
+<p><a href="{add link}" class="content-button">Student Activity: Google Doc</a></p>
+<p><a href="{add link}" class="content-button">Student Activity: Word Doc</a></p>
+<p><a href="{add link}" class="content-button">Student Activity: Web Version</a></p>
 </section>
 <section id="supplemental-materials" class="level1">
 <h1><strong>Supplemental Materials</strong></h1>
+<!-- This section might include additional resources such as pre-readings or podcasts to supplement learning. -->
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus turpis ac tellus iaculis laoreet. Fusce nec augue lobortis, luctus felis a, viverra odio. Proin sollicitudin sodales urna, a elementum velit cursus at.</p>
 </section>
-<section id="answer-key" class="level1">
-<h1><strong>Answer Key</strong></h1>
+<section id="questions-and-answer-key" class="level1">
+<h1><strong>Questions and Answer Key</strong></h1>
+<p><a href="{add link}" class="content-button">Student Activity: Questions Only</a></p>
+<p><a href="{add link}" class="content-button">Student Activity: Answer Key</a></p>
 <p>Please request access to the key below by emailing <strong>gems at fredhutch.org</strong>.</p>
-<p><a href="https://genomicseducation.org" class="content-button">Student Activity: Answer Key</a></p>
 </section>
 <section id="instructor-tips" class="level1">
 <h1><strong>Instructor Tips</strong></h1>
@@ -173,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="have-you-used-this-activity-tell-us-how-it-went" class="level1">
 <h1><strong>Have you used this activity? Tell us how it went!</strong></h1>
-<p><a href="https://genomicseducation.org" class="nav-button">Take the Survey</a></p>
+<p><a href="{add link}" class="nav-button">Take the Survey</a></p>
 
 
 </section>
@@ -266,6 +278,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
