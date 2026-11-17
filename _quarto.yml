@@ -10,6 +10,7 @@ website:
       href: index.qmd
     - text: All Modules
       href: https://genomicseducation.org/modules.html
+  google-analytics: "XXX"
 
 format:
   html:
@@ -17,3 +18,4 @@ format:
     include-in-header:
       - file: assets/header.html
     toc: true
+    link-external-newwindow: true

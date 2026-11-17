@@ -1,6 +1,4 @@
 
-[Follow the instructions here in ottrproject.org](https://www.ottrproject.org/writing_content_courses.html) for details on how to start editing your OTTR course
-
 The following files need to be edited to get this new course started!
 
 ### Files that need edited upon creating a new course.

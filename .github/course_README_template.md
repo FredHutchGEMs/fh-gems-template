@@ -1,24 +1,19 @@
-# {Course Name}
+# {Module Name}
 
-This course was created from [this GitHub template](https://github.com/ottrproject/OTTR_Template).
+This source code renders the module [{Module name}]({url the module renders to}). This Module is part of the Genomics Education Modules (GEMs) Program, led by Fred Hutch Cancer Center. You can find out more about the project at <genomicseducation.org>.
 
-You can see the rendered course material here: {Link to rendered bookdown and/or to the Leanpub.}
+If you would like to contribute to this material, file a GitHub issue or pull request in this repository or get in touch with us at **gems at fredhutch.org**.
 
-If you would like to contribute to this course material, take a look at the [OTTR documentation](https://www.ottrproject.org/).
+## About this module
 
-## About this course
+This module introduces {info on what this module introduces}.
 
-This course introduces {info on what this course introduces}
+## Learning objectives
 
-## Learning Objectives
-
-This course will teach learners to:  
-
-- {You can use https://www.bobpikegroup.com/trainer-blog/5-steps-to-writing-clear-and-measurable-learning-objectives to define some learning objectives here}
-- {More learning objectives}
+{List learning objectives}
 
 ## Encountering problems?
 
-If you are encountering any problems with this course, please file a GitHub issue or contact us at {Some email or web address with a contact form}.
+If you are encountering any problems with this module, please file a GitHub issue or contact us at **gems at fredhutch.org**.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />All materials in this course are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a> unless noted otherwise.
