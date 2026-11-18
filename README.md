@@ -1,4 +1,4 @@
-# GEMs OTTR Template
+# 💎 GEMs OTTR Template
 
 The goal of this template is to make it easier to make consistently structured modules for the Genomics Education Modules (GEMs) Program, a collaborative project between Fred Hutch Cancer Center and community college faculty partners.
 
